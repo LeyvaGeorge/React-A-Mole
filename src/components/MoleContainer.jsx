@@ -19,11 +19,12 @@ export default function MoleContainer({ setScore, score }) {
                 isShowing ?
                     <Mole
                         onMoleClick={onMoleClick}
-                        setIsShowing={setIsShowing} />
+                        setIsShowing={setIsShowing}
+                    />
                     :
                     <Empty setIsShowing={setIsShowing} />
             }
-            <Mole />
+            
         </div>
     )
 }
